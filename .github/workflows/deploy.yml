@@ -1,0 +1,13 @@
+name: Build
+
+On:
+  push:
+    branches:
+      - dev
+
+jobs:
+  checkout-fe:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Message
+        run: echo 'Build Done'  
