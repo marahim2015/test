@@ -3,7 +3,7 @@ name: Build
 On:
   push:
     branches:
-      - dev
+      - master
 
 jobs:
   checkout-fe:
